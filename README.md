@@ -26,7 +26,7 @@ Execute Django admin and create details for 10 books
 
 Include your code here
 <<<<<<< HEAD
-'''
+```
 admin.py 
 
 from django.contrib import admin
@@ -46,7 +46,7 @@ class book_details(models.Model):
 
 class book_detailsAdmin(admin.ModelAdmin):
     list_diaplay=("no","name","author","year","price");
-'''
+```
 # Create your models here.
 
 # Register your models here.
